@@ -8,7 +8,7 @@
         <Authors>ErikWe</Authors>
         <PackageProjectUrl>https://github.com/Attribinter/Attribinter.Core</PackageProjectUrl>
         <RepositoryUrl>https://github.com/Attribinter/Attribinter.Core</RepositoryUrl>
-        <GenerateDocumentationFile>false</GenerateDocumentationFile>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <PackageReadmeFile>README.nupkg.md</PackageReadmeFile>
         <PackageIcon>Logo.png</PackageIcon>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
