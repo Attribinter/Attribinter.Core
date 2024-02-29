@@ -4,7 +4,7 @@ using Microsoft.CodeAnalysis;
 
 /// <summary>Records data about arguments of type parameters.</summary>
 /// <typeparam name="TPayload">The type of the payload passed to the recorder, describing the arguments.</typeparam>
-public interface ITypeArgumentRecorder<in TPayload
+public interface ITypeArgumentRecorder<in TPayload>
 {
     /// <summary>Attempts to record data about an argument of a type parameter.</summary>
     /// <param name="parameter">The type parameter associated with the argument.</param>
