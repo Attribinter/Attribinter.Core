@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>Attribinter</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>Attribinter.Common</Title>
+        <Description>
+            Provides common components used by Attribinter.
+        </Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Attribinter.Common.Abstractions\Attribinter.Common.Abstractions.csproj" />
+        <ProjectReference Include="..\Attribinter.Core\Attribinter.Core.csproj" />
+    </ItemGroup>
+
+</Project>
