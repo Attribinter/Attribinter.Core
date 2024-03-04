@@ -8,7 +8,7 @@ public interface IArgumentParser<TParameter, TData, TAttribute>
 {
     /// <summary>Attempts to parse some arguments of an attribute.</summary>
     /// <param name="recorder">Records the parsed arguments.</param>
-    /// <param name="attribute">The parsed attribute.</param>
+    /// <param name="attribute">Describes the parsed attribute.</param>
     /// <returns>A <see cref="bool"/> indicating whether the attempt was successful.</returns>
     public abstract bool TryParse(IArgumentRecorder<TParameter, TData> recorder, TAttribute attribute);
 }

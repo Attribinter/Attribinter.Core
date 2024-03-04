@@ -1,5 +1,5 @@
-# Attribinter.Core
+# Attribinter.Common
 
-Provides the core components of `Attribinter`.
+Provides common components used by `Attribinter`.
 
 See [GitHub](https://github.com/Attribinter/Attribinter.Core) for more information.
