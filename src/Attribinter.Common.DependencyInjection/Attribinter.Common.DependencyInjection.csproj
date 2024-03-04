@@ -18,7 +18,7 @@
 
     <ItemGroup>
         <ProjectReference Include="..\Attribinter.Common.Abstractions\Attribinter.Common.Abstractions.csproj" />
-        <ProjectReference Include="..\Attribinter.Common\Attribinter.Common.csproj" PrivateAssets="all" />
+        <ProjectReference Include="..\Attribinter.Common\Attribinter.Common.csproj" PrivateAssets="compile" />
     </ItemGroup>
 
 </Project>
