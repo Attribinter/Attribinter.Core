@@ -13,16 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attribinter.Core", "src\Attribinter.Core\Attribinter.Core.csproj", "{C76F0FAD-EE12-46D7-B73C-A8F3E1AE008F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attribinter.Common.Abstractions", "src\Attribinter.Common.Abstractions\Attribinter.Common.Abstractions.csproj", "{9C057925-9C1A-47E4-97F2-72DF9EEDCA48}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attribinter.Common", "src\Attribinter.Common\Attribinter.Common.csproj", "{21AEC807-3694-46DA-B697-4777EAD92555}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attribinter.Common.DependencyInjection", "src\Attribinter.Common.DependencyInjection\Attribinter.Common.DependencyInjection.csproj", "{24AEF625-8964-481B-B3D2-D91AC9B400EA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attribinter.Common.IntegrationTests", "tests\integration\Attribinter.Common.IntegrationTests\Attribinter.Common.IntegrationTests.csproj", "{EF67EEAB-F1A1-4642-9B8A-47544DD8AB57}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attribinter.Common.UnitTests", "tests\unit\Attribinter.Common.UnitTests\Attribinter.Common.UnitTests.csproj", "{9B50055C-FCA6-4A2B-AF3A-46389047B2C2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,26 +23,6 @@ Global
 		{C76F0FAD-EE12-46D7-B73C-A8F3E1AE008F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C76F0FAD-EE12-46D7-B73C-A8F3E1AE008F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C76F0FAD-EE12-46D7-B73C-A8F3E1AE008F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C057925-9C1A-47E4-97F2-72DF9EEDCA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C057925-9C1A-47E4-97F2-72DF9EEDCA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C057925-9C1A-47E4-97F2-72DF9EEDCA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C057925-9C1A-47E4-97F2-72DF9EEDCA48}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21AEC807-3694-46DA-B697-4777EAD92555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21AEC807-3694-46DA-B697-4777EAD92555}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21AEC807-3694-46DA-B697-4777EAD92555}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21AEC807-3694-46DA-B697-4777EAD92555}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24AEF625-8964-481B-B3D2-D91AC9B400EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24AEF625-8964-481B-B3D2-D91AC9B400EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24AEF625-8964-481B-B3D2-D91AC9B400EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24AEF625-8964-481B-B3D2-D91AC9B400EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF67EEAB-F1A1-4642-9B8A-47544DD8AB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF67EEAB-F1A1-4642-9B8A-47544DD8AB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF67EEAB-F1A1-4642-9B8A-47544DD8AB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF67EEAB-F1A1-4642-9B8A-47544DD8AB57}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B50055C-FCA6-4A2B-AF3A-46389047B2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B50055C-FCA6-4A2B-AF3A-46389047B2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B50055C-FCA6-4A2B-AF3A-46389047B2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B50055C-FCA6-4A2B-AF3A-46389047B2C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
