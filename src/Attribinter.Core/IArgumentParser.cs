@@ -4,7 +4,7 @@
 /// <typeparam name="TParameter">The type of the parameter associated with the parsed arguments.</typeparam>
 /// <typeparam name="TData">The type of the data recorded by the provided recorders.</typeparam>
 /// <typeparam name="TAttribute">The type representing the parsed attributes.</typeparam>
-public interface IArgumentParser<TParameter, TData, TAttribute>
+public interface IArgumentParser<out TParameter, out TData, in TAttribute>
 {
     /// <summary>Attempts to parse some arguments of an attribute.</summary>
     /// <param name="recorder">Records the parsed arguments.</param>
